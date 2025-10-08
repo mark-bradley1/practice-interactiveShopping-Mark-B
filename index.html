@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Dynamic Shopping List</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Shopping List</h1>
-    <input type="text" id="item-input" placeholder="Enter an item" />
-    <button id="add-button">Add</button>
-    <ul id="shopping-list"></ul>
-    <script src="shopping-list.js"></script>
+    <div id="shopping-list">
+      <header>
+        <h1>Shopping List</h1>
+      </header>
+
+      <main>
+        <p>Please add item to list below</p>
+        <input type="text" id="itemInput" />
+        <button id="addBtn">Add</button>
+        <ul id="shoppingList"></ul>
+      </main>
+    </div>
+    <script src="script.js" defer></script>
   </body>
 </html>
